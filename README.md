@@ -5,7 +5,7 @@ Contact us: [UIT-Together Research Group](https://uit-together.github.io/)
 
 ![](images/cdersnet.png)
 
-> **[CDeRSNet: Towards High Performance Object Detection in Vietnamese Documents Images (MMM'22)]()**,            
+> **[CDeRSNet: Towards High Performance Object Detection in Vietnamese Documents Images (MMM'22)]()**            
 > Thuan Trong Nguyen, Thuan Q. Nguyen, Long Duong, Nguyen D.Vo, Khang Nguyen        
 <!-- > arXiv preprint ([arXiv:2103.07733](https://arxiv.org/pdf/2103.07733.pdf)) / CVPR [Open access](https://openaccess.thecvf.com/content/CVPR2021/papers/Han_ReDet_A_Rotation-Equivariant_Detector_for_Aerial_Object_Detection_CVPR_2021_paper.pdf). -->
 
@@ -20,14 +20,14 @@ This project provides an implementation for our [MMM 2022](http://mmm2022.org/) 
 In recent years, document image understanding (DIU) has received much attention from the research community. Localizing page objects (tables, figures, equations) in document images is an important problem in DIU, which is the foundation for extracting information from document images. However, it has remained many challenges due to the high degree of intra-class variability in page document. Especially, object detection in Vietnamese image documents has still limited. In this paper, we propose CDeRSNet: a novel end-to-end trainable deep learning network to solve object detection in Vietnamese documents.  The proposed network consists of Cascade R-CNN with the ResNeXt-101-DCN as the backbone and takes RS loss to complement the GIoU loss function.  CDeRSNet detects objects varying in scale with high detection accuracy at a higher IoU threshold to localize objects that differ in scale with detection accuracy at high quality. The experiment results demonstrate the effectiveness of the proposed method.
 
 ## Installation
-Please refer to [INSTALL.md]([INSTALL.md](https://mmdetection.readthedocs.io/en/v1.2.0/INSTALL.html)) for installation and dataset preparation.
+Please refer to [INSTALL.md](https://mmdetection.readthedocs.io/en/v1.2.0/INSTALL.html) for installation and dataset preparation.
 
 ## Dataset
 We empirically evaluate CDeRSNet on the Vietnamese image document dataset - [**UIT-DODV**](https://github.com/nguyenvd-uit/uit-together-dataset/blob/main/UIT-DODV.md)  with four classes of objects: table, figure, caption, and formula.
 
 
 ## Getting Started
-Please see [GETTING_STARTED.md](docs/install.md) for the basic usage.
+Please see [GETTING_STARTED.md]([docs/install.md](https://mmdetection.readthedocs.io/en/v1.2.0/GETTING_STARTED.html)) for the basic usage.
 We use 2 GPUs (12GB RTX 2080) to train our detector, you can adjust the batch size in configs by yourselves.
 * Train & Test
 ```shell
