@@ -3,9 +3,9 @@
 Contact us: [UIT-Together Research Group](https://uit-together.github.io/)
 
 
-![](docs/imgs/network.png)
+![](images/cdersnet.png)
 
-> **[CDeRSNet: Towards High Performance Object Detection in Vietnamese Documents Images (MMM2022)](https://openaccess.thecvf.com/content/CVPR2021/papers/Han_ReDet_A_Rotation-Equivariant_Detector_for_Aerial_Object_Detection_CVPR_2021_paper.pdf)**,            
+> **CDeRSNet: Towards High Performance Object Detection in Vietnamese Documents Images (MMM'22)**,            
 > Thuan Trong Nguyen, Thuan Q. Nguyen, Long Duong, Nguyen D.Vo, Khang Nguyen        
 <!-- > arXiv preprint ([arXiv:2103.07733](https://arxiv.org/pdf/2103.07733.pdf)) / CVPR [Open access](https://openaccess.thecvf.com/content/CVPR2021/papers/Han_ReDet_A_Rotation-Equivariant_Detector_for_Aerial_Object_Detection_CVPR_2021_paper.pdf). -->
 
@@ -15,7 +15,7 @@ The repo is based on [RankSortLoss](https://github.com/kemaloksuz/RankSortLoss) 
 
 ## Introduction
 
-This project provides an implementation for our MMM2022 paper "[CDeRSNet: Towards High Performance Object Detection in Vietnamese Documents Images].
+This project provides an implementation for our [MMM 2022](http://mmm2022.org/) paper "[CDeRSNet: Towards High Performance Object Detection in Vietnamese Documents Images].
 
 In recent years, document image understanding (DIU) has received much attention from the research community. Localizing page objects (tables, figures, equations) in document images is an important problem in DIU, which is the foundation for extracting information from document images. However, it has remained many challenges due to the high degree of intra-class variability in page document. Especially, object detection in Vietnamese image documents has still limited. In this paper, we propose CDeRSNet: a novel end-to-end trainable deep learning network to solve object detection in Vietnamese documents.  The proposed network consists of Cascade R-CNN with the deformable convolution backbone and Rank & Sort (RS) Loss.  CDeRSNet detects objects varying in scale with high detection accuracy at a higher IoU threshold to localize objects that differ in scale with detection accuracy at high quality. 
 
