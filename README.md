@@ -28,7 +28,7 @@ We empirically evaluate CDeRSNet on the Vietnamese image document dataset - [**U
 
 ## Getting Started
 Please see [GETTING_STARTED.md](https://mmdetection.readthedocs.io/en/v1.2.0/GETTING_STARTED.html) for the basic usage.
-We use 2 GPUs (12GB RTX 2080) to train our detector, you can adjust the batch size in configs by yourselves.
+We use 2 GPUs (12GB RTX 2080 Ti) to train our detector, you can adjust the batch size in configs by yourselves.
 * Train & Test
 ```shell
 # Train
